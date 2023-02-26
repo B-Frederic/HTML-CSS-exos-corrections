@@ -1,0 +1,27 @@
+/* Animation récompense quand tu auras fini l'exercice */
+
+@keyframes iconRotateHtml {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes iconRotateCss {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
